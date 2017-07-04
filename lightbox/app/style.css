@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom, lightgray, whitesmoke);
+    height: 98vh;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    box-shadow: inset 0 200px 250px 0 silver,
+                inset 0 -200px 250px 0 lightgray;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.my-image {
+    width: 200px;
+    height: 140px;
+    vertical-align: top;
+    border: 1px solid silver;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.my-image:hover {
+    border: 1px solid dimgray;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#blackpanel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    user-select: none;
+}
