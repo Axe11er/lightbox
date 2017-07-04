@@ -24,7 +24,6 @@ body {
 .my-image {
     width: 200px;
     height: 140px;
-    vertical-align: top;
     border: 1px solid silver;
     cursor: pointer;
     margin-bottom: 30px;
